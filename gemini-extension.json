@@ -1,0 +1,13 @@
+{
+  "name": "aribot",
+  "version": "1.1.0",
+  "description": "Aribot by Ayurak: threat models, cloud compliance posture, code and shadow-AI findings, and governed remediation for your estate.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "aribot": {
+      "httpUrl": "https://mcp.aribot.ayurak.com/mcp",
+      "oauth": { "enabled": true },
+      "authProviderType": "dynamic_discovery"
+    }
+  }
+}
